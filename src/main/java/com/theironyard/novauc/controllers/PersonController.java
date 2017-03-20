@@ -5,6 +5,7 @@ import com.theironyard.novauc.entities.PersonRepositoryInterFace;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.annotation.PostConstruct;
 import java.util.List;
 
 /**
@@ -41,4 +42,18 @@ public class PersonController {
     public Person getUser(@PathVariable("id") int id) {
         return persons.findOne(id);
     }
+
+    @PostConstruct
+    public void init() {
+        if (persons.count() == 0) {
+            Person person = new Person();
+            person.setName("John");
+            person.setAddress("123 NY Ave");
+            person.setEmail("john@gmail.com");
+            person.setPhonenumber("301-555-5555");
+            person.setSsn("000-00-0000");
+            persons.save(person);
+        }
+    }
+
 }
