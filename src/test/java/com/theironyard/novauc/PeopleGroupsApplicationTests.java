@@ -111,7 +111,7 @@ public class PeopleGroupsApplicationTests {
 				.andExpect(status().isOk())
 				.andExpect(content().json(json));
 
-		
+
 //		when((persons.findAll() == true)
 //		return(getUsers()));
 //		mockMvc.perform(getUsers("/user")
