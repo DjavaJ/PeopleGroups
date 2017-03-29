@@ -23,6 +23,7 @@ public class SwaggerConfig {
                 .pathMapping("/")
                 .apiInfo(metaData());
     }
+    
     private ApiInfo metaData() {
         ApiInfo apiInfo = new ApiInfo(
                 "People Group test",
