@@ -43,7 +43,7 @@ public class  PersonController {
     public Person getUser(@PathVariable("id") int id) {
         return persons.findOne(id);
     }
-
+   
     @PostConstruct
     public void init() {
         if (persons.count() == 0) {
