@@ -323,7 +323,11 @@ org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic c
 	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1033)
 	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1009)
 	at org.springframework.context.support.AbstractApplicationContext$2.run(AbstractApplicationContext.java:928)
+<<<<<<< HEAD
 2017-03-29 13:55:39 jdbc[12]: exception
+=======
+2017-03-31 09:26:13 jdbc[12]: exception
+>>>>>>> JoycePeopleGroups
 org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-193]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
 	at org.h2.message.DbException.get(DbException.java:179)
@@ -348,6 +352,7 @@ org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic c
 	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1033)
 	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1009)
 	at org.springframework.context.support.AbstractApplicationContext$2.run(AbstractApplicationContext.java:928)
+<<<<<<< HEAD
 2017-03-29 13:57:14 jdbc[3]: null
 org.h2.message.DbException: The connection was not closed by the application and is garbage collected [90018-193]
 	at org.h2.message.DbException.get(DbException.java:179)
@@ -1270,6 +1275,9 @@ org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic c
 	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1009)
 	at org.springframework.context.support.AbstractApplicationContext$2.run(AbstractApplicationContext.java:928)
 2017-03-29 15:22:57 jdbc[12]: exception
+=======
+2017-03-31 09:54:29 jdbc[12]: exception
+>>>>>>> JoycePeopleGroups
 org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-193]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
 	at org.h2.message.DbException.get(DbException.java:179)
@@ -1294,7 +1302,11 @@ org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic c
 	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1033)
 	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1009)
 	at org.springframework.context.support.AbstractApplicationContext$2.run(AbstractApplicationContext.java:928)
+<<<<<<< HEAD
 2017-03-29 15:56:20 jdbc[12]: exception
+=======
+2017-03-31 11:55:04 jdbc[12]: exception
+>>>>>>> JoycePeopleGroups
 org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-193]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
 	at org.h2.message.DbException.get(DbException.java:179)
@@ -1319,7 +1331,11 @@ org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic c
 	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1033)
 	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1009)
 	at org.springframework.context.support.AbstractApplicationContext$2.run(AbstractApplicationContext.java:928)
+<<<<<<< HEAD
 2017-03-29 15:58:13 jdbc[12]: exception
+=======
+2017-03-31 11:59:16 jdbc[12]: exception
+>>>>>>> JoycePeopleGroups
 org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-193]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
 	at org.h2.message.DbException.get(DbException.java:179)
@@ -1344,7 +1360,11 @@ org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic c
 	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1033)
 	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1009)
 	at org.springframework.context.support.AbstractApplicationContext$2.run(AbstractApplicationContext.java:928)
+<<<<<<< HEAD
 2017-03-29 16:06:34 jdbc[12]: exception
+=======
+2017-03-31 11:59:45 jdbc[12]: exception
+>>>>>>> JoycePeopleGroups
 org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-193]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
 	at org.h2.message.DbException.get(DbException.java:179)
@@ -1369,7 +1389,11 @@ org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic c
 	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1033)
 	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1009)
 	at org.springframework.context.support.AbstractApplicationContext$2.run(AbstractApplicationContext.java:928)
+<<<<<<< HEAD
 2017-03-29 16:10:05 jdbc[12]: exception
+=======
+2017-03-31 12:09:00 jdbc[12]: exception
+>>>>>>> JoycePeopleGroups
 org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-193]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
 	at org.h2.message.DbException.get(DbException.java:179)
@@ -1394,7 +1418,11 @@ org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic c
 	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1033)
 	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1009)
 	at org.springframework.context.support.AbstractApplicationContext$2.run(AbstractApplicationContext.java:928)
+<<<<<<< HEAD
 2017-03-29 16:10:26 jdbc[12]: exception
+=======
+2017-03-31 12:11:09 jdbc[12]: exception
+>>>>>>> JoycePeopleGroups
 org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-193]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
 	at org.h2.message.DbException.get(DbException.java:179)
@@ -1419,7 +1447,11 @@ org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic c
 	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1033)
 	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1009)
 	at org.springframework.context.support.AbstractApplicationContext$2.run(AbstractApplicationContext.java:928)
+<<<<<<< HEAD
 2017-03-30 09:27:04 jdbc[12]: exception
+=======
+2017-03-31 12:12:06 jdbc[12]: exception
+>>>>>>> JoycePeopleGroups
 org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-193]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
 	at org.h2.message.DbException.get(DbException.java:179)
@@ -1444,7 +1476,11 @@ org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic c
 	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1033)
 	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1009)
 	at org.springframework.context.support.AbstractApplicationContext$2.run(AbstractApplicationContext.java:928)
+<<<<<<< HEAD
 2017-03-30 09:28:10 jdbc[12]: exception
+=======
+2017-03-31 12:12:50 jdbc[12]: exception
+>>>>>>> JoycePeopleGroups
 org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-193]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
 	at org.h2.message.DbException.get(DbException.java:179)
@@ -1469,7 +1505,11 @@ org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic c
 	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1033)
 	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1009)
 	at org.springframework.context.support.AbstractApplicationContext$2.run(AbstractApplicationContext.java:928)
+<<<<<<< HEAD
 2017-03-30 10:10:50 jdbc[12]: exception
+=======
+2017-03-31 12:13:44 jdbc[12]: exception
+>>>>>>> JoycePeopleGroups
 org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-193]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
 	at org.h2.message.DbException.get(DbException.java:179)
@@ -1494,7 +1534,11 @@ org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic c
 	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1033)
 	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1009)
 	at org.springframework.context.support.AbstractApplicationContext$2.run(AbstractApplicationContext.java:928)
+<<<<<<< HEAD
 2017-03-30 16:28:02 jdbc[12]: exception
+=======
+2017-03-31 14:25:25 jdbc[12]: exception
+>>>>>>> JoycePeopleGroups
 org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-193]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
 	at org.h2.message.DbException.get(DbException.java:179)
@@ -1519,7 +1563,11 @@ org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic c
 	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1033)
 	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1009)
 	at org.springframework.context.support.AbstractApplicationContext$2.run(AbstractApplicationContext.java:928)
+<<<<<<< HEAD
 2017-03-30 16:31:03 jdbc[12]: exception
+=======
+2017-03-31 14:29:07 jdbc[12]: exception
+>>>>>>> JoycePeopleGroups
 org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-193]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
 	at org.h2.message.DbException.get(DbException.java:179)
