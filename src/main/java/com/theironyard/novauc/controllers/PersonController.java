@@ -3,9 +3,14 @@ package com.theironyard.novauc.controllers;
 import com.theironyard.novauc.Person;
 import com.theironyard.novauc.entities.PersonRepositoryInterFace;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.PostConstruct;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
 /**
@@ -43,7 +48,22 @@ public class  PersonController {
     public Person getUser(@PathVariable("id") int id) {
         return persons.findOne(id);
     }
-   
+
+    @RequestMapping(value="/login")
+    public String login() {
+        return "login";
+    }
+
+    @RequestMapping(value="/logout")
+    public String logout(HttpServletRequest request, HttpServletResponse response) {
+        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+        if (auth != null){
+            new SecurityContextLogoutHandler().logout(request, response, auth);
+        }
+        request.setAttribute("logout","logout");
+        return "login";
+    }
+
     @PostConstruct
     public void init() {
         if (persons.count() == 0) {
