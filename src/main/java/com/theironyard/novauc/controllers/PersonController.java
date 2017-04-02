@@ -3,26 +3,20 @@ package com.theironyard.novauc.controllers;
 import com.theironyard.novauc.Person;
 import com.theironyard.novauc.entities.PersonRepositoryInterFace;
 import org.springframework.beans.factory.annotation.Autowired;
-<<<<<<< HEAD
 import org.springframework.http.HttpEntity;
 import org.springframework.http.ResponseEntity;
-import org.springframework.util.LinkedMultiValueMap;
-import org.springframework.util.MultiValueMap;
-=======
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler;
->>>>>>> JoycePeopleGroups
+import org.springframework.util.LinkedMultiValueMap;
+import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.PostConstruct;
-<<<<<<< HEAD
-import java.util.HashMap;
-=======
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
->>>>>>> JoycePeopleGroups
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -62,8 +56,6 @@ public class  PersonController {
         return persons.findOne(id);
     }
 
-<<<<<<< HEAD
-
     @RequestMapping(path = "/WillUser/{id}", method = RequestMethod.GET)
     public WillStuff getWillUser(@PathVariable("id") int id) {
         RestTemplate restTemplate = new RestTemplate();
@@ -101,12 +93,6 @@ public class  PersonController {
     }
 
 
-
-
-
-
-
-=======
     @RequestMapping(value="/login")
     public String login() {
         return "login";
@@ -119,10 +105,14 @@ public class  PersonController {
             new SecurityContextLogoutHandler().logout(request, response, auth);
         }
         request.setAttribute("logout","logout");
-        return "login";
+        try {
+            response.sendRedirect("/user");
+        } catch (Exception e){
+            System.out.println("this is the message "+e);
+        }
+        return "";
     }
 
->>>>>>> JoycePeopleGroups
     @PostConstruct
     public void init() {
         if (persons.count() == 0) {
